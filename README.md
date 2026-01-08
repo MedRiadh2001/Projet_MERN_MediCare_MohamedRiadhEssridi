@@ -192,8 +192,7 @@ classDiagram
 ## 9. Sécurité
 
 - Utilisation de JWT pour protéger les routes sensibles via le middleware `authMiddleware`.
-- Ne pas exposer le fichier `.env` dans le dépôt public.
-- Validation des entrées côté serveur recommandée (ex. `express-validator`).
+- Validation des entrées côté serveur (ex. `express-validator`).
 
 ## 10. Installation et exécution (local)
 
